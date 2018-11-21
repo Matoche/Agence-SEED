@@ -12,11 +12,12 @@
 
 /* ----------------------- carrés projets -------------------------*/
 .proj{display: flex;}
-.carre{width: calc(100vw/5); height: 450px; background-color: red;}
+.carre{width: calc(100vw/5); height: 450px;}
+
 div.carre > p {
     margin: 50% auto; padding: 20px;
-    text-align: center;
-    color: white; font-size: 50px;}
+    text-align: center;}
+
 .proj > .carre:nth-child(1) {background: #4947B8;}
 .proj > .carre:nth-child(2) {background: #6B69D8;}
 .proj > .carre:nth-child(3) {background: #4340C4;}

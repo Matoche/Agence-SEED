@@ -2,3 +2,14 @@ body{overflow-x: hidden;}
 .inc_fond{position: absolute;z-index: 0;}
 .inc{position: relative; z-index: 1;}
 .contenu{margin-top: 200px;}
+
+
+/* -------------------------- POLICE ECRITURE ---------------------------*/
+.l_35{font-family:'Montserrat', sans-serif; font-weight: 300; font-size:25px;}
+.r_30{font-family:'Montserrat', sans-serif; font-weight: 400; font-size:20px;}
+.m_50{font-family:'Montserrat', sans-serif; font-weight: 500; font-size:40px;}
+
+/* couleurs*/
+.blanc{color: white;}
+.grey{color: #707070;}
+.blue{color: #3232B2;}

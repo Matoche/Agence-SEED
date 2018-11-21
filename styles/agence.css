@@ -28,8 +28,9 @@
 	box-shadow: -1px -1px 30px grey;}
 
 .affichage_agence{grid-column: 3/6;}
-#rectangle_info{grid-column: 7/15; padding-top: 30px;}
-#rectangle_info > div {padding-bottom: 50px;line-height: 25px;}
+#rectangle_info{grid-column: 7/15;}
+#rectangle_info > div:nth-chil(1) {padding-bottom: 40px;line-height: 4px;}
+#description{line-height: 25px; padding-top: 20px}
 
 /* --------------- details agence -----------------*/
 #barre_1{

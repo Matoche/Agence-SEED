@@ -7,10 +7,10 @@
     <div id="elements">
       <div id="presentation">
         <div id="statique">
-          <p>Une agence presque assez créative pour </p>
+          <p class="l_35 blanc">Une agence presque assez créative pour </p>
         </div>
         <div class="anim">
-          <p> concurrencer Apple</p>
+          <p class="l_35 blanc"> concurrencer Apple</p>
         </div>
       </div>
       <img src="images/logo_blanc.png" alt="Logo de l'agence SEED" width="auto"/>
