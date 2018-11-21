@@ -17,7 +17,7 @@
 					<div id= "listemenu">
 						<ul id= "listemenu1">
 							<li> L'agence </li>
-							<li id="projects"> Les projets </li>
+							<li id="projects"> <a href="include/details_projects.php"> Les projets </a></li>
 						</ul>
 					</div>
 				<div id= "listemenu2">
@@ -41,28 +41,5 @@
 					</div>
 				</div>
 			</div>
+			<?php include("include/inc_details_projects.php") ?>
 		</header>
-
-	<div class= "rectangle">
-		<div class="texte">
-			<img id="logo" src="" alt="">
-			<ul id= "liste2">
-				<li><a href="#centrerctxt"> CONTEXTE </a></li>
-				<li><a href="#centrerdmd"> DEMANDE </a></li>
-				<li> LIVRABLES </li>
-			</ul>
-			<div id="centrerctxt">
-				<h1 class="contexte">CONTEXTE</h1>
-			  	<p id="ctxt">
-			  	</p>
-			</div>
-			<div id="centrerdmd">
-			  	<h1 class="contexte">DEMANDE</h1>
-			  	<p id="dmd">
-
-			  	</p>
-			</div>
-
-		</div>
-	</div>
-</header>

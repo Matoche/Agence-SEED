@@ -48,7 +48,7 @@
 
       <!-- Partie projets (COM IUT / CHAINA'ZIK / PONEY / AFS / EFFICIENCE)-->
       <?php include("include/inc_projets.php") ?>
-
+      
       <!-- pied de page -->
       <?php include("include/inc_footer.php") ?>
 
