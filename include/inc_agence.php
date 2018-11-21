@@ -21,12 +21,12 @@
       <img class="affichage_perso" src="images/logo.png"/>
       <div id="rectangle_info">
         <div>
-          <h2 class="titre_agence">L'AGENCE</h2>
-          <p class="role_agence">Agence scandaleuse</p>
+          <p class="titre_agence m_50 blue">L'AGENCE</p>
+          <p class="role_agence l_35 grey">Agence scandaleuse</p>
         </div>
         <div id="description">
           <div attr-comp="av">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor </p>
+            <p class="r_30 grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed, dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a, semper congue, euismod non, mi. Proin porttitor </p>
           </div>
         </div>
       </div>
