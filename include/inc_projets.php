@@ -17,7 +17,7 @@
       <p>EFFICIENCE</p>
     </div>
     <div id="poney" class="carre">
-      <p>CENTRE EQUESTRE CHANTEMERLE</p>
+      <p>CENTRE EQUESTRE</p>
     </div>
 
   </div>

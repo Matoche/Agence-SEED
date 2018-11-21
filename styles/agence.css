@@ -24,7 +24,7 @@
 	grid-column: 1/15;
 	padding: 100px;
 	background: white;
-	max-width: 1320px;
+	max-width: 1015px;
 	box-shadow: -1px -1px 30px grey;}
 
 .affichage_agence{grid-column: 3/6;}
@@ -50,6 +50,6 @@
 		border-radius: 100%;
 		position: absolute;
 		transform: rotate(160deg);
-		right:-925px;
+		right:-875px;
 	  top: -110px;
 		z-index: -1;}

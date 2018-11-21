@@ -4,7 +4,7 @@
 
 /* -----------------------texte présentation -------------------------*/
 #texte{
-  width: 1480px;
+  width: 1200px;
   margin: auto;
   padding-bottom: 70px;}
 
@@ -12,9 +12,9 @@
 
 /* ----------------------- carrés projets -------------------------*/
 .proj{display: flex;}
-.carre{width: 385px; height: 450px; background-color: red;}
+.carre{width: calc(100vw/5); height: 450px; background-color: red;}
 div.carre > p {
-    margin: 50% auto;
+    margin: 50% auto; padding: 20px;
     text-align: center;
     color: white; font-size: 50px;}
 .proj > .carre:nth-child(1) {background: #4947B8;}
