@@ -18,7 +18,7 @@
    <link rel="stylesheet" href="styles/header.css">
    <link rel="stylesheet" href="styles/menu.css">
    <link rel="stylesheet" href="styles/agence.css">
-   <link rel="stylesheet" href="styles/projets.css">
+   <link rel="stylesheet" href="styles/projets.css"> 
    <link rel="stylesheet" href="styles/footer.css">
    <link rel="stylesheet" href="styles/mention.css">
 
