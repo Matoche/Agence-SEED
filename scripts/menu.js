@@ -12,7 +12,7 @@ function changeMenu(){
 changeMenu();
 
 function projets(){
-	$('li#projets').click(function() {
+	$('li#projects').click(function() {
 		$('div#listemenu2').toggleClass('active');
 
 	});
