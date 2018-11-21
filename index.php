@@ -1,8 +1,5 @@
 <!DOCTYPE html>
 <html>
-
-
-
 <head>
    <meta charset="utf-8" />
    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
@@ -12,7 +9,7 @@
      <meta property="og:description" content="Nous sommes une agence étudiante du DUT MMI de Chambéry !" />
      <meta property="og:url" content="http://www.agence-origammi.fr" />
      <meta property="og:image" content="images/picto.svg" />
-   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,500" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500" rel="stylesheet">
 
    <!-- feuilles de styles -->
    <link rel="stylesheet" href="styles/reset.css">
@@ -32,11 +29,7 @@
    <title>Agence ORIGAMMI</title>
 </head>
 
-
-
 <body>
-
-
    <!-- CORPS DU ONE PAGE -->
    <section id="page">
 
@@ -51,7 +44,6 @@
 
       <!-- pied de page -->
       <?php include("include/inc_footer.php") ?>
-
    </section>
 
    <!-- Appel des scripts utilisés -->
@@ -59,7 +51,5 @@
    <script src="scripts/menu.js"></script>
    <script src="scripts/projets.js"></script>
 </body>
-
-
 
 </html>

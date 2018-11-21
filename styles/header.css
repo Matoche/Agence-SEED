@@ -1,12 +1,12 @@
 #elements{display: flex; height: 90vh;}
 
-#presentation{color: white;
+#presentation{
   display: flex;
-  margin-top: 300px;
-  transform: translateX(50px);}
+  margin-top: 350px;
+  transform: translateX(50px);
+  width: 3000px;}
 
 #elements > img {
     align-self: end;
     max-width: 20%;
-    margin-left: 490px;
-    margin-bottom: 55px;}
+    transform: translateX(-275px);}
