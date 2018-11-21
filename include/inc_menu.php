@@ -17,7 +17,7 @@
 					<div id= "listemenu">
 						<ul id= "listemenu1">
 							<li> L'agence </li>
-							<li id="projets"> Les projets </li>
+							<li id="projects"> Les projets </li>
 						</ul>
 					</div>
 				<!--	<div id= "listemenu2">
