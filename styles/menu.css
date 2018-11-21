@@ -1,5 +1,11 @@
+header {
+	position : fixed;
+	margin-top: -100px;
+}
+
 .rectheader {
 	background-color: #3232B2;
+	width: 100vw;
 	height: 100px;}
 
 #rondmenu {
@@ -89,7 +95,7 @@ ul#listemenu1 li a:hover {
 margin-left: auto;
 margin-right: auto;
 width : 66%;
-margin-top: 150px;
+margin-top: 100px;
 border-width:5px;
 border-style:solid;
 border-color:white;

@@ -7,3 +7,14 @@ section#fond{
         transform: translateY(-64px);
         margin-left: -175px;}
 #forme2{padding-top: 250px; transform: translateX(100px);}
+
+section#fond.active{
+  position: fixed;
+  background:#3232B2;
+  height: 100vh;
+  display: flex;}
+#forme1{max-width: 95%;
+        margin-top: 120px;
+        transform: translateY(-64px);
+        margin-left: -175px;}
+#forme2{padding-top: 250px; transform: translateX(100px);}

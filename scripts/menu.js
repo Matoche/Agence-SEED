@@ -14,7 +14,7 @@ changeMenu();
 function projets(){
 	$('li#projects').click(function() {
 		$('div#listemenu2').toggleClass('active');
-
+		$('section#fond').toggleClass('active');
 	});
 }
 projets();
