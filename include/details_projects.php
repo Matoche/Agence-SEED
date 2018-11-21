@@ -11,24 +11,24 @@
      <meta property="og:description" content="Nous sommes une agence étudiante du DUT MMI de Chambéry !" />
      <meta property="og:url" content="http://www.agence-origammi.fr" />
      <meta property="og:image" content="images/picto.svg" />
-   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,500" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500" rel="stylesheet">
 
    <!-- feuilles de styles -->
    <link rel="stylesheet" href="../styles/reset.css">
-   <link rel="stylesheet" href="../styles/menu.css">
+   <link rel="stylesheet" href="../styles/menu_projets.css">
+   <link rel="stylesheet" href="../styles/global.css">
 
 
    <!--icone onglet -->
-   <link rel="icon" href="images/picto.svg" />
+   <link rel="icon" href="../images/picto.svg" />
    <meta name="author" content="Agence SEED"/>
    <meta name="description" content="Nous sommes une agence étudiante du DUT MMI de Chambéry !" />
-   <title>Agence ORIGAMMI</title>
+   <title>Agence SEED</title>
 </head>
 <body>
   <section id="fond_projects">
-      <img src="images/forme-1.png" alt="forme bleu" width="auto" id="forme1">
-      <img src="images/forme-2.png" alt="forme bleu" width="auto" id="forme2">
-  </section>
+      <img src="../images/forme-1.png" alt="forme bleu" width="auto" id="forme1">
+      <img src="../images/forme-2.png" alt="forme bleu" width="auto" id="forme2">
   <header>
   			<div class="rec">
   			</div>
@@ -47,12 +47,12 @@
   					</div>
   					<div id= "listemenu">
   						<ul id= "listemenu1">
-  							<li> L'agence </li>
-  							<li id="projects"> <a href="include/details_projects.php"> Les projets </a></li>
+  							<li><a href="../index.php" class="r_30"> L'agence </a></li>
+  							<li id="projects" class="r_30"> Les projets </a></li>
   						</ul>
   					</div>
   				<div id= "listemenu2">
-  						<ul id="listemenu3">
+  						<ul id="listemenu3" class="r_30">
   							<li date-image="chainazik.png"
                     data-text1="Le festival Chaina’zik est un festival de musique qui se déroule tous les ans à Chainaz les Frasses en Savoie. Composé exclusivement de bénévole, notre client est Philippe Chappelet l’un des dirigeant de cet événement. Il est spécialisé dans la création et la gestion d’événement. Nous avons avant tout conversé avec le fils du client, Jules Chappelet, car il a de bonne base en audiovisuel étant donné qu’il a réalisé les aftermovies et films de plusieurs éditions de Chaina’zik."
                     data-text2="Ce festival nous a demandé de faire la captation vidéo de leur 9ème édition pour un aftermovie et un film dédié aux bénévoles pour les remerciés de leurs implications."> Chaina'zik </li>
@@ -77,17 +77,17 @@
 <div class= "rectangle">
   <div class="texte">
     <img id="logo" src="" alt="">
-    <ul id= "liste2">
+    <ul id= "liste2" class="m_50">
       <li><a href="#centrerctxt"> CONTEXTE </a></li>
       <li><a href="#centrerdmd"> DEMANDE </a></li>
       <li> LIVRABLES </li>
     </ul>
-    <div id="centrerctxt">
+    <div id="centrerctxt" class="m_50">
       <h1 class="contexte">CONTEXTE</h1>
         <p id="ctxt">
         </p>
     </div>
-    <div id="centrerdmd">
+    <div id="centrerdmd" class="m_50">
         <h1 class="contexte">DEMANDE</h1>
         <p id="dmd">
 
@@ -96,6 +96,8 @@
 
   </div>
 </div>
-<script src="scripts/menu.js"></script>
+</section>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="../scripts/menu.js"></script>
 </body>
 </htlm>
