@@ -20,7 +20,7 @@
 							<li id="projects"> Les projets </li>
 						</ul>
 					</div>
-				<!--	<div id= "listemenu2">
+				<div id= "listemenu2">
 						<ul id="listemenu3">
 							<li date-image="chainazik.png"
                   data-text1="Le festival Chaina’zik est un festival de musique qui se déroule tous les ans à Chainaz les Frasses en Savoie. Composé exclusivement de bénévole, notre client est Philippe Chappelet l’un des dirigeant de cet événement. Il est spécialisé dans la création et la gestion d’événement. Nous avons avant tout conversé avec le fils du client, Jules Chappelet, car il a de bonne base en audiovisuel étant donné qu’il a réalisé les aftermovies et films de plusieurs éditions de Chaina’zik."
@@ -64,5 +64,5 @@
 			</div>
 
 		</div>
-	</div> -->
+	</div>
 </header>
