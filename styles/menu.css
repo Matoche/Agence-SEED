@@ -1,0 +1,186 @@
+.rectheader {
+	background-color: #3232B2;
+	height: 100px;}
+
+#rondmenu {
+  margin : 30px;
+  position: absolute;
+  border-radius:50%;
+  width:40px;
+  height:40px;
+  background-color: white;
+  cursor: pointer; }
+
+#barmenu1 {
+	margin-top : 14px;
+	margin-left: 10px;
+	width : 20px;
+	height: 1px;
+	background-color: blue;}
+
+
+#barmenu2 {
+	margin-top : 5px;
+	margin-left: 7.5px;
+	width : 25px;
+	height: 1px;
+	background-color: blue;}
+
+#barmenu3 {
+	margin-top : 5px;
+	margin-left: 10px;
+	width : 20px;
+	height: 1px;
+	background-color: blue;}
+
+#barmenu1.active {
+	margin-top : 10px;
+	margin-left: 12px;
+	width : 1px;
+	height: 20px;
+	background-color: blue;}
+
+
+#barmenu2.active {
+	margin-top : -22px;
+	margin-left: 20px;
+	width : 1px;
+	height: 25px;
+	background-color: blue;}
+
+#barmenu3.active {
+	margin-top : -22px;
+	margin-left: 28px;
+	width : 1px;
+	height: 20px;
+	background-color: blue;}
+
+#listemenu {
+  transform: translateX(-100%);
+  transition: all 0.5s ease;}
+
+#listemenu.active {
+  transform: translateX(0%);}
+
+ul#listemenu1 {
+ padding-top: 58px;
+ padding-left: 65px;
+ list-style-type:none;}
+
+ul#listemenu1 li {
+ margin-left:90px;
+ float:left; /*pour IE*/
+ color: white;
+ cursor: pointer;
+ text-decoration:none;
+ font-size : 20px;
+ line-height: 1.1;}
+
+ul#listemenu1 li:hover {
+  text-decoration: underline;
+  font-size: 25px;
+  transition:all ease 0.3s;}
+
+ul#listemenu1 li a:hover {
+ background-color: white;
+ border-color: green; }
+
+.rectangle {
+margin-left: auto;
+margin-right: auto;
+width : 66%;
+margin-top: 150px;
+border-width:5px;
+border-style:solid;
+border-color:white;
+height: 2000px;}
+
+.texte {
+	width : 90%;
+	margin : auto;
+	text-align: center;}
+
+#logo {
+	margin-top: 50px;
+	width : 400px;}
+
+ul#liste2 {
+	margin : auto;
+	text-align: center;
+	list-style-type:none;}
+
+ul#liste2 li {
+	margin-top:50px;
+	color: white;
+	cursor: pointer;
+	text-decoration:none;
+	font-size : 30px;
+	line-height: 1.1;}
+
+ul#liste2 li:hover {
+	text-decoration: underline;}
+a {
+	color: #FFFFFF;
+	text-decoration: none;}
+
+#centrerctxt {
+	height : 100vh ;
+	margin-top : 10px;
+	flex-direction: column;
+	display:flex;}
+
+.contexte {
+	margin-top : auto;
+	text-align: center;
+	font-size : 30px;
+	color: white;}
+
+#ctxt{
+	margin-bottom : auto;
+	text-align: center;
+	font-size : 20px;
+	color: white;
+	margin-top : 65px;
+	line-height: 30px;}
+
+#centrerdmd {
+	height : 100vh ;
+	margin-top : -300px;
+	flex-direction: column;
+	display:flex;}
+
+#listemenu2 {
+	transform: translateX(-150%);
+	transition: all 0.5s ease;}
+
+#listemenu2.active {
+	transform: translateX(0%);  }
+
+ul#listemenu3 {
+	padding-left: 100px;
+	list-style-type:none;}
+
+ul#listemenu3 li {
+	margin-left:90px;
+	float:left; /*pour IE*/
+	color: white;
+	cursor: pointer;
+	text-decoration:none;
+	font-size : 20px;
+	line-height: 1.1;}
+
+ul#listemenu3 li:hover {
+	font-size: 21px;
+	transition:all ease 0.3s;}
+
+ul#listemenu3 li a:hover {
+	 background-color: white;
+	 border-color: green;}
+
+#dmd{
+	margin-bottom : auto;
+	text-align: center;
+	font-size : 20px;
+	color: white;
+	margin-top : 65px;
+	line-height: 30px;}

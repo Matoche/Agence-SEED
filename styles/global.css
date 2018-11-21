@@ -1,0 +1,4 @@
+body{overflow-x: hidden;}
+.inc_fond{position: absolute;z-index: 0;}
+.inc{position: relative; z-index: 1;}
+.contenu{margin-top: 200px;}

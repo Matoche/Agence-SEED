@@ -1,0 +1,55 @@
+/* ------------------- général ----------------------*/
+.grid {
+	position: relative;
+	display: grid;
+	grid-template-columns: repeat(15, 1fr);
+	width: 80%;
+	margin: 0 auto;
+	grid-template-rows: auto; }
+
+/* ------------------ bloc agence --------------------*/
+
+#bloc-agence > img {padding: 10px;}
+#bloc-agence img:nth-of-type(3) {padding: 5px;}
+#bloc-agence img:nth-of-type(6) {padding: 5px;}
+#bloc-agence img:nth-of-type(1) {padding: 0px;}
+
+.affichage_perso{
+	max-width: 350px;
+	margin: auto;
+	grid-column: 1/5;}
+
+/* --------------- details agence -----------------*/
+#details_agence{
+	grid-column: 1/15;
+	padding: 100px;
+	background: white;
+	max-width: 1320px;
+	box-shadow: -1px -1px 30px grey;}
+
+.affichage_agence{grid-column: 3/6;}
+#rectangle_info{grid-column: 7/15; padding-top: 30px;}
+#rectangle_info > div {padding-bottom: 50px;line-height: 25px;}
+
+/* --------------- details agence -----------------*/
+#barre_1{
+	width: 900px;
+	height: 137px;
+	background: #3c39c8;
+	border-radius: 100%;
+	position: absolute;
+	transform: rotate(45deg);
+	margin-left: -500px;
+	margin-top: 185px;
+	z-index: -1;}
+
+	#barre_2{
+		width: 900px;
+		height: 137px;
+		background: #3c39c8;
+		border-radius: 100%;
+		position: absolute;
+		transform: rotate(160deg);
+		right:-925px;
+	  top: -110px;
+		z-index: -1;}

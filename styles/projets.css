@@ -1,0 +1,24 @@
+/* ----------------------- général -------------------------*/
+#projets{margin-top: 350px;}
+
+
+/* -----------------------texte présentation -------------------------*/
+#texte{
+  width: 1480px;
+  margin: auto;
+  padding-bottom: 70px;}
+
+
+
+/* ----------------------- carrés projets -------------------------*/
+.proj{display: flex;}
+.carre{width: 385px; height: 450px; background-color: red;}
+div.carre > p {
+    margin: 50% auto;
+    text-align: center;
+    color: white; font-size: 50px;}
+.proj > .carre:nth-child(1) {background: #4947B8;}
+.proj > .carre:nth-child(2) {background: #6B69D8;}
+.proj > .carre:nth-child(3) {background: #4340C4;}
+.proj > .carre:nth-child(4) {background: #34328D;}
+.proj > .carre:nth-child(5) {background: #3535B4;}

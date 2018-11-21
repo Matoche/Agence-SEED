@@ -1,0 +1,7 @@
+#footer{margin-bottom: 300px;}
+#mentions_bas {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    margin: 200px 0px;}
+#mentions_bas>a{color: black;}

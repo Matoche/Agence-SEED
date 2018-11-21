@@ -1,0 +1,3 @@
+<aside id="detailsAFS">
+  
+</aside>
