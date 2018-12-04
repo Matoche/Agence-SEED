@@ -18,7 +18,7 @@
    <link rel="stylesheet" href="styles/header.css">
    <link rel="stylesheet" href="styles/menu.css">
    <link rel="stylesheet" href="styles/agence.css">
-   <link rel="stylesheet" href="styles/projets.css"> 
+   <link rel="stylesheet" href="styles/projets.css">
    <link rel="stylesheet" href="styles/footer.css">
    <link rel="stylesheet" href="styles/mention.css">
 
@@ -41,7 +41,7 @@
 
       <!-- Partie projets (COM IUT / CHAINA'ZIK / PONEY / AFS / EFFICIENCE)-->
       <?php include("include/inc_projets.php") ?>
-      
+
       <!-- pied de page -->
       <?php include("include/inc_footer.php") ?>
    </section>
@@ -50,6 +50,7 @@
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
    <script src="scripts/menu.js"></script>
    <script src="scripts/projets.js"></script>
+   <script src="scripts/agence.js"></script>
 </body>
 
 </html>

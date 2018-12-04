@@ -14,7 +14,7 @@
 .proj{display: flex;}
 .carre{width: calc(100vw/5); height: 450px;}
 
-div.carre > p {
+div.carre > a > p {
     margin: 50% auto; padding: 20px;
     text-align: center;}
 
@@ -23,3 +23,34 @@ div.carre > p {
 .proj > .carre:nth-child(3) {background: #4340C4;}
 .proj > .carre:nth-child(4) {background: #34328D;}
 .proj > .carre:nth-child(5) {background: #3535B4;}
+
+/*image chainazik*/
+.festival{
+  background-image: url(../images/projets/chaina.jpg) !important;
+  background-repeat: no-repeat;
+  opacity: 0.5;}
+
+/*image com*/
+.communication{
+  background-image: url(../images/projets/com.jpg) !important;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+  color: black;}
+
+/*image afs*/
+.international{
+  background-image: url(../images/projets/afs.png) !important;
+  background-repeat: no-repeat;
+  opacity: 0.5;}
+
+/*image efficience*/
+.psychologie{
+  background-image: url(../images/projets/efficience.jpg) !important;
+  background-repeat: no-repeat;
+  opacity: 0.5;}
+
+/*image poney*/
+.equestre{
+  background-image: url(../images/projets/poney.jpg) !important;
+  background-repeat: no-repeat;
+  opacity: 0.5;}
