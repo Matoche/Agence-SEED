@@ -1,6 +1,6 @@
 header {
+	z-index: 1;
 	position : fixed;
-  z-index: 2;
   width: 100%;
 }
 
@@ -16,9 +16,9 @@ header {
 	max-width: 70%;
   margin-top: 120px;
   transform: translateY(-64px);
-  margin-left: -175px;}
+  margin-left: -175px;
+	opacity: 0.3;}
 #forme2 {
-  z-index: 1;
   position: fixed;
 	padding-top: 250px;
   transform: translateX(1000px);}
@@ -26,7 +26,7 @@ header {
 
 .rectheader {
 	background-color: #3232B2;
-	width: 100%;
+	width: 90%;
 	height: 100px;}
 
 #rondmenu {
@@ -109,7 +109,6 @@ ul#listemenu1 li:hover {
   transition:all ease 0.3s;}
 
 .rectangle {
-z-index: 0;
 position: relative;
 margin-left: auto;
 margin-right: auto;
