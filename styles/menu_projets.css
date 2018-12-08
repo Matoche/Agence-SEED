@@ -4,21 +4,25 @@ header {
   width: 100%;
 }
 
+body {
+	overflow-x: hidden;
+	background-color:#3232B2;
+}
+
 #fond_projects {
-  overflow-x: hidden;
-  background-color:#3232B2;
-  height: 100vh;
   display: flex;
  }
 
 #forme1 {
   position: fixed;
 	max-width: 70%;
-  margin-top: 120px;
+  margin-top: 150px;
   transform: translateY(-64px);
   margin-left: -175px;
 	opacity: 0.3;}
+
 #forme2 {
+	z-index: 2;
   position: fixed;
 	padding-top: 250px;
   transform: translateX(1000px);}
@@ -117,7 +121,7 @@ margin-top: 100px;
 border-width:5px;
 border-style:solid;
 border-color:white;
-height: 2000px;}
+height: 3000px;}
 
 .texte {
 	width : 90%;
@@ -160,6 +164,7 @@ a {
 	color: white;}
 
 #ctxt{
+	z-index: 3;
 	margin-bottom : auto;
 	text-align: center;
 	font-size : 20px;
@@ -199,9 +204,32 @@ ul#listemenu3 li:hover {
 
 
 #dmd{
+	z-index: 3;
 	margin-bottom : auto;
 	text-align: center;
 	font-size : 20px;
 	color: white;
 	margin-top : 65px;
 	line-height: 30px;}
+
+
+	#centrerlivrables {
+		height : 100vh ;
+		flex-direction: column;
+		display:flex;
+	}
+
+	.livrables {
+		margin-top : auto;
+		text-align: center;
+		font-size : 30px;
+		color: white;}
+
+		#livr{
+			z-index: 3;
+			margin-bottom : auto;
+			text-align: center;
+			font-size : 20px;
+			color: white;
+			margin-top : 65px;
+			line-height: 30px;}
