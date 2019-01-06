@@ -11,7 +11,7 @@ window.onload = function() {
     TST : 0%
   **/
   // Proc $('#bloc-persos .equipe img').click c'est fixe ($(this)) result (T_Cdc image, prenom, role, compAV, compCom, compProg, compGraph)
-  $('#bloc-agence .equipe img').click(function() {
+  $('#bloc-agence img').click(function() {
      console.log("clique");
      var image = $(".affichage_perso");
      var prenom = $(this).attr('attr-prenom');
